@@ -37,3 +37,46 @@ It includes:
 ---
 
 ## 📂 Project Structure
+energy-dashboard/
+│
+├── app.py
+├── requirements.txt
+├── data/
+│ └── cleaned_energy.csv
+│ └── energy_data.csv
+└── notebook/
+└── eda.ipynb
+
+---
+
+## 📊 Key Insights
+
+- Iceland has the highest renewable energy adoption globally.
+- China contributes the highest carbon emissions among countries.
+- Renewable energy adoption has increased over time.
+- Increasing renewable energy share may help reduce emissions.
+
+---
+
+## 🔮 Machine Learning
+
+A Linear Regression model is used to predict carbon emissions based on:
+- Renewable energy share
+- Year
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+🌐 Deployment
+
+This project can be deployed using Streamlit Community Cloud.
+
+📌 Future Improvements
+Add more advanced ML models
+Improve UI with dark mode
+Add global comparison dashboards
