@@ -73,11 +73,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-🌐 Deployment
+## 🌐 Deployment
 
 This project can be deployed using Streamlit Community Cloud.
 
-📌 Future Improvements
+## 📌 Future Improvements
 Add more advanced ML models
 Improve UI with dark mode
 Add global comparison dashboards
