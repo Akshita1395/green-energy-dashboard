@@ -71,6 +71,7 @@ A Linear Regression model is used to predict carbon emissions based on:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 🌐 Deployment
 
